@@ -1,0 +1,350 @@
+.numbers {
+  background-color: #a82d49;
+  padding: 25px 0;
+  max-width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Tajawal";
+  font-weight: bold;
+  margin-top: 0;
+}
+.numbers .row {
+  margin: 10px 0;
+}
+.numbers h2 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+.numbers h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* css to the pride section and ingredients */
+.pride,
+.ingredients {
+  background-color: transparent;
+  padding: 25px 0;
+  max-width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+  font-family: "Tajawal";
+  font-weight: bold;
+  margin-top: 60px;
+}
+.pride img,
+.ingredients img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.pride h2,
+.ingredients h2 {
+  color: #a82d49;
+  font-size: 30px;
+  width: 80%;
+  font-weight: bold;
+  margin: 10px 0;
+  line-height: 50px;
+}
+.pride p,
+.ingredients p {
+  color: #333;
+  font-size: 16px;
+  line-height: 28px;
+}
+.pride button,
+.ingredients button {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+}
+.pride button:hover,
+.ingredients button:hover {
+  background-color: #fff;
+  color: #a82d49;
+  transition: 0.5s;
+}
+.pride button a,
+.ingredients button a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.ingredients ul {
+  padding: 0;
+  margin-top: 10px;
+}
+.ingredients ul li {
+  font-family: "Tajwal";
+  color: #333;
+}
+.stomach {
+  background: url("../../images/bg2.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.stomach .row {
+  margin: 50px 0;
+}
+.stomach h2 {
+  color: #a82d49;
+  font-size: 40px;
+  width: 100%;
+  font-weight: bold;
+  margin: 50px 0;
+  line-height: 50px;
+}
+.stomach p {
+  color: #333;
+  font-size: 20px;
+  line-height: 28px;
+  width: 100%;
+}
+.stomach a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+.stomach a:hover {
+  color: #a82d49;
+}
+.explore {
+  text-align: center;
+  margin-top: 50px;
+}
+.explore h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.explore p {
+  color: #333;
+  font-size: 19px;
+  line-height: 28px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.explore .col-md-4{
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.explore img{
+  max-width: 100%;
+    border-radius: 10px;
+}
+.explore h4{
+  margin-top: 15px;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.explore .col-md-4 p{
+  color: #333;
+    font-size: 19px;
+    line-height: 28px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.explore h5{
+  color: #a82d49;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+.explore button{
+  background-color: #a82d49;
+    border: 1px solid #a82d49;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.explore button:hover{
+  color: #a82d49;
+  background-color: #fff;
+  transition: .5s
+}
+.slider{
+  background-color: #a82d49;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #a82d49;
+  text-align: center;
+  padding: 25px 0;
+  height: 600px;
+}
+.slider h2{
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.slider .carousel{
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #333;
+  margin-top: 50px;
+  padding: 25px 0;
+}
+.slider img{
+  border-radius: 50%;
+  width: 100px;
+  margin: 20px 0;
+  margin-bottom: 150px;
+}
+.slider .carousel-caption p{
+  color: black;
+  line-height: 30px;
+}
+.slider .carousel-caption h5{
+  color: #a82d49;
+  display: block;
+  margin: 15px;
+    font-size: 17px;
+}
+.carousel-indicators {
+  margin-bottom: -50px;
+}
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target],
+[data-bs-theme=dark].carousel .carousel-indicators [data-bs-target]{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+[data-bs-theme=dark] .carousel .carousel-control-next-icon,
+[data-bs-theme=dark] .carousel .carousel-control-prev-icon,
+[data-bs-theme=dark].carousel .carousel-control-next-icon,
+[data-bs-theme=dark].carousel .carousel-control-prev-icon{
+  display: none;
+}
+.question{
+  margin: 50px 0;
+  text-align: center;
+}
+.question h2{
+    font-weight: bold;
+      color: #2e060f;
+      margin-bottom: 60px;
+}
+.question h3{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+.question p{
+  color: #333;
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.overlay{
+  margin: 50px 0;
+    background: url("../../images/bg1.jpg") center no-repeat;
+    background-size: cover;
+    height: auto;
+    background-color: #333;
+}
+.passion{
+  background-color: rgb(51 51 51 / 50%);
+}
+
+.passion h2{
+  margin: 50px 0;
+  font-size: 30px;
+  color: #fff;
+}
+.passion button{
+  background-color: #a82d49;
+    border: 1px solid #a82d49;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    margin: 50px 0;
+}
+.passion button:hover {
+  color: #a82d49;
+  background-color: #fff;
+  transition: .5s
+}
+.contact{
+  margin: 50PX 0 ;
+  text-align: center;
+}
+.contact h2{
+  margin: 20px auto;
+  font-weight: bold;
+  width: 60%;
+  font-size: 40px;
+}
+.contact p{
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+.contact input{
+  width: 30%;
+  outline: none;
+  padding: 10px;
+  border: 3px solid #ddd;
+  margin-right: 30px;
+}
+.contact input::placeholder{
+  font-weight: bold;
+}
+.contact button{
+  background-color: #a82d49;
+    border: 1px solid #a82d49;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 140px;
+    margin: 50px 0;
+    padding: 10px ;
+}
+.contact button:hover{
+  color: #a82d49;
+    background-color: #fff;
+    transition: .5s
+}
+.footer{
+  background-color: #a82d49;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.footer .article{
+  margin-top: 50px;
+}
+.footer span{
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.icons span{
+  margin-right: 20px;
+  font-size: 20px;
+}
+.footer p{
+  margin-bottom: 50px;
+}
